@@ -1,0 +1,5 @@
+applications:
+- name: hash-client
+  random-route: true
+  services:
+  - hash-service-broker
