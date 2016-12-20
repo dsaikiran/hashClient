@@ -20,7 +20,7 @@
 ```
 ##### Push into PCF
 ```
-  cf push hashclient -p target/hashclient-0.0.1-SNAPSHOT.jar
+  cf push hashclients -p target/hashclient-0.0.1-SNAPSHOT.jar
 ```
 
 ##### Sample curl requests
