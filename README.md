@@ -29,3 +29,8 @@
 		provide request body as {saikiran}
 	GET - https://hashclients-nonconcentric-consolation.cfapps.io/TechoHash/name
 		OutPut : saikiran
+```
+##### Approach
+* Implemented a hashmap service
+* Broker service accepts rest requests with key-value and save in map
+* Client will use this broker by sending an rest requests inorder to save data in to map
